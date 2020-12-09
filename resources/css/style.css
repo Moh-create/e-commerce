@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap');
+
+body {
+    font-family: 'Balsamiq Sans';
+}
+#haut-de-page {
+    background-color: #80DDF2;
+    height: 63vh;
+
+}
+
+.image-haut-de-page img {
+    height: 650px;
+    width: 650px;
+}
+.info{
+    color: black;
+}
+
+.info h2{
+    font-size: 50px;
+}
+.info h3 {
+    color: white;
+}
+
+.info h1{
+    font-family: 'Balsamiq Sans';
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+}
+.btn-color{
+    
+    background-color: #F2CB05;
+    color: white;
+}
+.coupe {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    height: 30vh;
+    margin-top: -1px;
+    z-index: -1;
+
+}
+.coupe::before {
+    content: "";
+    top: 0px;
+    position: absolute;
+    border-right: 100vw solid transparent;
+    border-top: 80px solid #80DDF2;
+}
+.entreprise_presentation {
+    font-size: 28px;
+    color: #324FA6;
+    text-align: justify;
+}
+@media (max-width: 576px) {
+
+    .image-haut-de-page img {
+        height: 500px;
+        width: 500px;
+    }
+}
+@media (max-width: 992px) {
+
+    .image-haut-de-page img {
+        height: 600px;
+        width: 600px;
+    }
+
+    .info h1 {
+        font-size: 40px;
+    }
+
+    .info h2 {
+        font-size: 40px;
+    }
+ }
