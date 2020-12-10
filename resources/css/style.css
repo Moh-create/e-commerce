@@ -5,14 +5,28 @@ body {
 }
 #haut-de-page {
     background-color: #80DDF2;
-    height: 63vh;
+    height: 100vh;
+    margin-top: -300px;
+    padding: 200px 0;
+    transform: skew(0deg,-3deg);
+    background-color: #80DDF2;
+
 
 }
+
 
 .image-haut-de-page img {
-    height: 650px;
-    width: 650px;
+    height: 500px;
+    width: 500px;
+   
 }
+
+.test {
+    text-align: center;
+    transform: skew(0deg,3deg);
+    padding-top: 100px;
+}
+
 .info{
     color: black;
 }
@@ -58,18 +72,53 @@ body {
     color: #324FA6;
     text-align: justify;
 }
-@media (max-width: 576px) {
 
-    .image-haut-de-page img {
-        height: 500px;
-        width: 500px;
-    }
-}
-@media (max-width: 992px) {
+
+
+
+@media (max-width: 768px) { 
 
     .image-haut-de-page img {
         height: 600px;
         width: 600px;
+    }
+
+    .info h1 {
+        font-size: 20px;
+    }
+
+    .info h2 {
+        font-size: 20px;
+    }
+
+    #haut-de-page {
+        height: 110vh;
+    }
+    
+}
+@media (max-width: 576px) {
+
+    .image-haut-de-page img {
+        height: 100px;
+        width: 100px;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .image-haut-de-page img {
+        height: 100px;
+        width: 100px;
+        padding-bottom: 10%;
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .image-haut-de-page img {
+        height: 300px;
+        width: 300px;
     }
 
     .info h1 {
@@ -80,3 +129,5 @@ body {
         font-size: 40px;
     }
  }
+
+

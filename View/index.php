@@ -28,7 +28,12 @@
     <title>Hello, world!</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #80DDF2;">
+ 
+
+<section id="haut-de-page">
+    <div class="test">
+
+    <nav class="navbar navbar-expand-lg navbar-dark " style="background-color: #80DDF2;">
   <div class="container">
     <a class="navbar-brand" href="#">PICKUP ME</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -63,72 +68,48 @@
   </div>
 </nav>
 
-<section id="haut-de-page">
+    
     <div class="container pt-5">
-        <div class="info ">
-            <div class="text-center">
+        <div class="info pt-5">
+            <div class="text-center pt-5">
                 <h1 class="pb-2 text-uppercase">Recevez vos colis en Afrique
                    <br>  de manière très simple</h1>
-                <h3>Acheter vos articles et on s'occupe de les envoyer</h3>                
+                <h3>Acheter vos articles et on s'occupe de les envoyer avec </h3>        
             </div>
  
         </div>
-        <div class="image-haut-de-page">
-            <div class="text-center">
-                <img src="../resources/images/—Pngtree—hand drawn wind cartoon cute_4045140.png" class="img-fluid" alt="Responsive image" > 
-            </div>
-            
-        </div>
 
     </div>
+</div>
 </section>
-
-<section class="coupe"></section>
-<br><br><br><br><br><br><br>
-
-<section id="contenu-presentation pt-5">
+ <section id="contenu-presentation pt-5">
     <div class="container">
 
         <div class="row align-items-start">
             <div class="info pt-5">
                 <div class="text-center pt-5">
-                    <h2 class="text-uppercase">qui sommes nous ?</h2>
+                    <h2 class="text-uppercase">Vous pouvez acheter sur n'importe quel site</h2>
                 </div>
             </div>  
         </div>
-
-
-        
-    <div class="row align-items-center pt-5">
-
-        <div class="col-lg-6 col-sm-12">
-        <img src="../resources/images/5469.jpg" alt=""class="img-fluid" alt="...">
-        </div>
-
-        <div class="col-lg-6 col-sm-12">
-        <p class ="entreprise_presentation">PICKME UP est une start up qui propose des services de livraison pour les personnes en
-Afrique souhaitant faire des achats sur des sites internet de vente en ligne internationaux.</p>
-        </div>
-
- 
-    </div>
-
-
     </div>
 </section>
 
-<section id="contenu-fonctionnement">
+
+
+<!-- <section id="contenu-fonctionnement">
     <div class="container">
-    <div class="row align-items-start">
+        <div class="row align-items-start">
             <div class="info pt-5">
                 <div class="text-center pt-5">
                     <h2 class="text-uppercase">comment ça marche ?</h2>
                 </div>
             </div>  
         </div>
-    </div>
-</section>
 
+
+    </div>
+</section>  -->
 
 
 
